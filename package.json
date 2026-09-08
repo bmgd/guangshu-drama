@@ -1,0 +1,21 @@
+{
+  "name": "guangshu-drama",
+  "version": "1.0.0",
+  "private": true,
+  "description": "光束短剧 - AI 短剧自动化生产平台",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "typecheck": "cd backend && npm run typecheck",
+    "test": "cd backend && npm test && cd ../frontend && npm test",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "smoke": "node scripts/smoke-api.mjs",
+    "build": "cd frontend && npm run generate",
+    "start": "cd backend && npm start"
+  }
+}

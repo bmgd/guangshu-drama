@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788667322485,
+      "tag": "0000_init_pg",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788696769428,
+      "tag": "0001_usage_media_caps",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788740000000,
+      "tag": "0002_task_review_caps",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788800000000,
+      "tag": "0003_produce_library_caps",
+      "breakpoints": true
+    }
+  ]
+}
